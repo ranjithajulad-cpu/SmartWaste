@@ -1,5 +1,7 @@
 # SmartWaste 
 
+# Project Demo
+
 An AI-based waste classification system that identifies different
 types of waste from images and provides appropriate disposal guidance.
 
