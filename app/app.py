@@ -415,16 +415,16 @@ def home():
 
 if name == "main":
 
-print()
-print("========================================")
-print("STARTING SMARTWASTE AI WEBSITE")
-print("========================================")
+    print()
+    print("========================================")
+    print("STARTING SMARTWASTE AI WEBSITE")
+    print("========================================")
 
-print("Open this URL in your browser:")
-print("http://127.0.0.1:5000")
+    print("Open this URL in your browser:")
+    print("http://127.0.0.1:5000")
 
-app.run(
-    host="0.0.0.0",
-    port=int(os.environ.get("PORT", 5000)),
-    debug=False
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 5000)),
+        debug=False
 )
