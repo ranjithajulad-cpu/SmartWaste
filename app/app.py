@@ -249,9 +249,7 @@ def home():
         # =================================================
         # ADD BATCH DIMENSION
         # =================================================
-        img_array=img_to_array(
-            img
-        )
+        
         img_array = np.expand_dims(
             img_array,
             axis=0
@@ -445,7 +443,7 @@ if __name__ == "__main__":
     )
 
     app.run(
-        host="127.0.0.1",
-        port=5000,
-        debug=True
+        host="0.0.0.0",
+        port=int(os.environ.get(PORT,5000)),
+        debug=False
     )

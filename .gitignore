@@ -33,3 +33,5 @@ Thumbs.db
 # Allow project screenshots
 !screenshots/
 !screenshots/*.png
+
+!model/smartwaste_model.keras
