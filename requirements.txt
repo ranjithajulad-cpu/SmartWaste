@@ -1,5 +1,5 @@
 Flask
-tensorflow-cpu==2.19.0
+tensorflow-cpu==2.22.0rc0
 numpy
 Pillow
 gunicorn
